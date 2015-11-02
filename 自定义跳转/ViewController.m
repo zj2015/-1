@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "twoViewController.h"
 
 @interface ViewController ()
+{
+    UINavigationController *nav;
+}
 
 @end
 
@@ -16,12 +20,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor cyanColor];
+   
+//     nav = [[UINavigationController alloc]initWithRootViewController:self];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+////    [self transitionPush];
+//    
+//    twoViewController *cv = [[twoViewController alloc]init];
+//    
+//    [self.navigationController pushViewController:cv animated:YES];
+//
+//}
+
+//-(void)transitionPush{
+//    
+//    
+//    CATransition *tran = [CATransition animation];
+//    
+//    tran.duration = .5;
+//    
+//    
+//    
+//    tran.type = @"pageCurl";
+//    
+//    tran.subtype = kCATransitionFromRight;
+//    
+//    
+//    
+//    [self.navigationController.view.layer addAnimation:tran forKey:nil];
+//    
+//}
 
 @end

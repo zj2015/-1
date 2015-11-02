@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "NavigationPerfomer.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) NavigationPerfomer *perfomer;
 
 @end
 
@@ -16,7 +20,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    ViewController *firstCtrl = [[ViewController alloc] init];
+    
+     self.perfomer = [[NavigationPerfomer alloc]init];
+    self.perfomer.navigationController = [[UINavigationController alloc]initWithRootViewController:firstCtrl];
+    [self.perfomer initnav];
+    
+//    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:firstCtrl];
+    
+    self.window.rootViewController = self.perfomer.navigationController;
+    
+    
     return YES;
 }
 

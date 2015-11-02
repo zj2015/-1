@@ -15,6 +15,12 @@
 		2F4BEC971BE734EE009C490A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BEC951BE734EE009C490A /* LaunchScreen.storyboard */; };
 		2F4BECA21BE734EF009C490A /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECA11BE734EF009C490A /* _____Tests.m */; };
 		2F4BECAD1BE734EF009C490A /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECAC1BE734EF009C490A /* _____UITests.m */; };
+		2F4BECBC1BE73544009C490A /* onecontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECBB1BE73544009C490A /* onecontroller.m */; settings = {ASSET_TAGS = (); }; };
+		2F4BECBF1BE736C4009C490A /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECBE1BE736C4009C490A /* twoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2F4BECC21BE736D1009C490A /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECC11BE736D1009C490A /* threeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2F4BECC51BE7443C009C490A /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECC41BE7443C009C490A /* PushAnimation.m */; settings = {ASSET_TAGS = (); }; };
+		2F4BECC81BE7444E009C490A /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECC71BE7444E009C490A /* PopAnimation.m */; settings = {ASSET_TAGS = (); }; };
+		2F4BECCB1BE7452E009C490A /* NavigationPerfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BECCA1BE7452E009C490A /* NavigationPerfomer.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		2F4BECA81BE734EF009C490A /* 自定义跳转UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义跳转UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4BECAC1BE734EF009C490A /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		2F4BECAE1BE734EF009C490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4BECBA1BE73544009C490A /* onecontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onecontroller.h; sourceTree = "<group>"; };
+		2F4BECBB1BE73544009C490A /* onecontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onecontroller.m; sourceTree = "<group>"; };
+		2F4BECBD1BE736C4009C490A /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		2F4BECBE1BE736C4009C490A /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		2F4BECC01BE736D1009C490A /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
+		2F4BECC11BE736D1009C490A /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		2F4BECC31BE7443C009C490A /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		2F4BECC41BE7443C009C490A /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		2F4BECC61BE7444E009C490A /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopAnimation.h; path = ../PopAnimation.h; sourceTree = "<group>"; };
+		2F4BECC71BE7444E009C490A /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopAnimation.m; path = ../PopAnimation.m; sourceTree = "<group>"; };
+		2F4BECC91BE7452E009C490A /* NavigationPerfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationPerfomer.h; sourceTree = "<group>"; };
+		2F4BECCA1BE7452E009C490A /* NavigationPerfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationPerfomer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,18 @@
 				2F4BEC951BE734EE009C490A /* LaunchScreen.storyboard */,
 				2F4BEC981BE734EE009C490A /* Info.plist */,
 				2F4BEC871BE734EE009C490A /* Supporting Files */,
+				2F4BECBA1BE73544009C490A /* onecontroller.h */,
+				2F4BECBB1BE73544009C490A /* onecontroller.m */,
+				2F4BECBD1BE736C4009C490A /* twoViewController.h */,
+				2F4BECBE1BE736C4009C490A /* twoViewController.m */,
+				2F4BECC01BE736D1009C490A /* threeViewController.h */,
+				2F4BECC11BE736D1009C490A /* threeViewController.m */,
+				2F4BECC31BE7443C009C490A /* PushAnimation.h */,
+				2F4BECC41BE7443C009C490A /* PushAnimation.m */,
+				2F4BECC61BE7444E009C490A /* PopAnimation.h */,
+				2F4BECC71BE7444E009C490A /* PopAnimation.m */,
+				2F4BECC91BE7452E009C490A /* NavigationPerfomer.h */,
+				2F4BECCA1BE7452E009C490A /* NavigationPerfomer.m */,
 			);
 			path = "自定义跳转";
 			sourceTree = "<group>";
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4BECC81BE7444E009C490A /* PopAnimation.m in Sources */,
+				2F4BECCB1BE7452E009C490A /* NavigationPerfomer.m in Sources */,
+				2F4BECBC1BE73544009C490A /* onecontroller.m in Sources */,
 				2F4BEC8F1BE734EE009C490A /* ViewController.m in Sources */,
 				2F4BEC8C1BE734EE009C490A /* AppDelegate.m in Sources */,
+				2F4BECC21BE736D1009C490A /* threeViewController.m in Sources */,
+				2F4BECC51BE7443C009C490A /* PushAnimation.m in Sources */,
 				2F4BEC891BE734EE009C490A /* main.m in Sources */,
+				2F4BECBF1BE736C4009C490A /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
